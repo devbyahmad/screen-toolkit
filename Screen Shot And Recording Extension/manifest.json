@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Toolkit",
+  "version": "1.0",
+  "description": "Capture screenshots or record your screen.",
+  "permissions": ["activeTab", "tabs", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "host_permissions": ["<all_urls>"],
+  "web_accessible_resources": [
+    {
+      "resources": ["recorder.html", "recorder.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

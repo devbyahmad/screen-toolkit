@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Screen Toolkit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+
+    button {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: none;
+      background-color: #0066ff;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #004ed4;
+    }
+
+    #status {
+      font-size: 12px;
+      margin-top: 10px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h2>Screen Toolkit</h2>
+  <button id="screenshotBtn">Take Screenshot</button>
+  <button id="startRecordBtn">Start Recording</button>
+  <p id="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
